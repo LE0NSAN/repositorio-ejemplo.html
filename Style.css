@@ -1,0 +1,69 @@
+*{
+    /*background-color: brown;
+    color:white;*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+h1{
+color:blue;
+}
+p{
+    color: green;
+    font-size: 20px;
+    font-weight: 100;
+}
+figure{
+    border:1px solid red
+}
+
+figure figcaption{
+    color: blue;
+}
+
+figure img{
+    border: 1px solid blue;
+    object-fit: cover;
+    
+}
+
+h3[role="heading"]{
+    color:rgb(0, 86, 92);
+}
+
+#Cabecera{
+    background-color: rgb(3, 38, 67);
+    color: white;
+    padding:10px;
+}
+
+.LISTA{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+fieldset{
+    border: 1px solid rgb(0, 86, 92);
+    padding: 10px;
+    margin: 16px;
+
+}
+
+input{
+    border: 1px solid rgb(0, 86, 92);
+    padding: 10px;
+    margin: 16px;
+
+}
+
+label{
+    color: blueviolet;
+}
+
+button{
+    background-color: brown;
+    color: white;
+    border: 4PX solid rgb(114, 77, 208);
+}

@@ -4,11 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-<header style="font-size: 24px;">
-Ivan Leon Sanchez
+<header>
+    <h1 id="Cabecera">
+    Ivan Leon Sanchez
+    </h1>
 </header>
+<main>
+
+    <p id="description">
+        musica, videojuegos, manejar bicicleta
+    </p>
+</main>
+
+<figure>
+    <img src="https://www.welivesecurity.com/wp-content/uploads/2021/08/Ataques-compa%C3%B1%C3%ADas-videojuegos-por-qu%C3%A9-son-blanco-atractivo.jpg" alt="Videojuegos" width="250px">
+    <figcaption>
+        Me encantan los videojuegos
+        <a href="https://www.welivesecurity.com/wp-content/uploads/2021/08/Ataques-compa%C3%B1%C3%ADas-videojuegos-por-qu%C3%A9-son-blanco-atractivo.jpg"
+    alt="Videojuegos"alt="Juegos"
+    target="_blank" rel="noopener">
+        Me gustan los videojuegos</a>
+    </figcaption>
+</figure>
+<h3 role="heading">
+    Deportes favoritos
+</h3>
+<ul>
+    <li CLASS="LISTA">Natacion</li>
+    <li CLASS="LISTA">Futbol</li>
+    <li CLASS="LISTA">Atletismo</li>
+    
+</ul>
+
+<form action="backend.com">
+<fieldset>
+    <label for="nombres">Nombres</label>
+    <input id="nombres" type="text" name="Nombres" placeholder="Ingresa tus nombres">
+</fieldset>
+<fieldset>
+    <label for="fraseSecreta">Adivina mi frase secreta</label>
+    <input id="nombres" type="password" name="frase secreta" placeholder="******">
+</fieldset>
+
+<fieldset>
+    <legend>Mis frutas favoritas</legend>
+
+    <input type="radio" name="frutas" id="frutas" value="manzana">
+  <label for="frutas">manzana</label>
+
+  <input type="radio" name="frutas" id="frutas" value="pera">
+  <label for="frutas">pera</label>
+</fieldset>
+
+<fieldset>
+<legend>Mis Deportes favoritos</legend>
+<input type="checkbox" name="Deportes" id="deportes" value="Natacion">
+<label for="deportes">Natacion</label>
+<input type="checkbox" name="Deportes" id="deportes" value="Box">
+<label for="deportes">Box</label>
+<input type="checkbox" name="Deportes" id="deportes" value="Voley">
+<label for="deportes">Voley</label>
+<input type="checkbox" name="Deportes" id="deportes" value="Polo">
+<label for="deportes">Polo</label>
+
+<select name="multiple" id="opciones">
+    <optgroup>
+        <option>Opcion1</option>
+        <option>Opcion2</option>
+        <option>Opcion3</option>
+    </optgroup>
+</select>
+
+<!-- <input type="submit" value="ENVIAR"> -->
+<BUTton type="submit">ENVIAR</BUTton>
+
+</fieldset>
+
+
+
+
+</form>
+
 </body>
 </html>
